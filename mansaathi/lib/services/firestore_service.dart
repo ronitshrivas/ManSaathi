@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
+import '../models/mood-entry.dart';
 import '../models/user_model.dart';
-import '../models/mood_entry.dart';
 
 /// Firestore Service - Handles all database operations
 class FirestoreService {
